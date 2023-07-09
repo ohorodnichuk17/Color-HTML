@@ -1,8 +1,14 @@
+body {
+   font-family: sans-serif;
+   width: 80%;
+   margin: 0 auto;
+}
+
 h1 {
    background-color: #646363;
    color: #fff;
    text-align: center;
-   width: 100%;
+   padding: 10px;
 }
 
 p {
@@ -16,6 +22,7 @@ p {
 .container {
    display: flex;
    align-items: center;
+   margin-top: 20px;
 }
 
 .h2-container {
@@ -43,6 +50,7 @@ h2 {
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-bottom: 20px;
 }
 
 .classimg img {
